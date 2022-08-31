@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "TT Lakes Regular";
+  src: url(./fonts/TTLakes-Regular.woff) format("woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  width: 100vw;
+  height: 80px;
+  font-family: "TT Lakes Regular";
+  color: #7E7E82;
+  font-size: 16px;
+  padding-left: 16px;
+  padding-top: 16px;
+  background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+}
+
+.swiper-button {
+  outline: none;
+  background-color: transparent;
+  width: 240px;
+  height: 72px;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+}/*# sourceMappingURL=style.css.map */
