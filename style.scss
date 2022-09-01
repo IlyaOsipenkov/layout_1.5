@@ -17,6 +17,7 @@
     font-family: 'TT Lakes Regular';
     color: #7E7E82;
     font-size: 16px;
+    font-weight: 100;
     padding-left: 16px;
     padding-top: 16px;
     background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
@@ -44,4 +45,28 @@
 .swiper-wrapper {
     display: flex;
     flex-direction: row;
+    margin-bottom: 36px;
+}
+
+.swiper-pagination-bullet {
+    width: 12px !important;
+    height: 12px !important;
+    margin-left: 6px !important;
+    background-color: #8b8b8b !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #B5B6BC !important;
+}
+
+.divider-0f-opacity {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 90px;
+    width: 24px;
+    height: 81px;
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    // background-color: red;
+
 }

@@ -1,16 +1,10 @@
 
-const swiper = new swiper('.swiper', {
-    modules: [Navigation, Pagination],
-
+const swiper = new Swiper('.swiper', {
     pagination: {
         el: '.swiper-pagination',
         type: 'bullets',
     },
+    slidesPerView: 1.3,
+    spaceBetween: 16,
 });
 
-
-setInterval(() => {
-    swiper.slideNext()
-}, 500)
-
-console.log('test')
