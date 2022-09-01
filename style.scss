@@ -70,3 +70,17 @@
     // background-color: red;
 
 }
+
+
+.swiper-slide:last-child {
+    // position: absolute;
+    // top: 5px;
+    // left: 5px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .swiper-slide {
+        width: auto !important;
+    }
+}
