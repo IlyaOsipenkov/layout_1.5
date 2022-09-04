@@ -73,17 +73,16 @@
   display: flex;
   gap: 16px;
   margin-left: 16px;
-  font-family: inherit;
+  font-family: "TT Lakes Regular";
   font-weight: 500;
 }
 
 .button-more-info {
   display: none;
 }
-.button-more-infoimg {
-  align-self: center;
+.button-more-info img {
+  align-self: stretch;
 }
-
 .swiper-slide-sub-one {
   display: none;
 }
