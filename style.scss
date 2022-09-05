@@ -39,7 +39,12 @@
     padding: 0 16px;
     margin-top: 16px;
     margin-left: 16px;
+    cursor: pointer;
+
     // min-width: 0;
+    &:focus {
+        border: 1px solid rgb(191, 191, 191);
+    }
 }
 
 .swiper-wrapper {
@@ -96,6 +101,10 @@
 
     & p {
         // align-self: flex-start;
+    }
+
+    &:focus {
+        background: linear-gradient(to right, #ececec 50%, #F8F8F8 90%);
     }
 }
 

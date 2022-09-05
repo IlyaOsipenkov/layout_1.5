@@ -34,6 +34,10 @@
   padding: 0 16px;
   margin-top: 16px;
   margin-left: 16px;
+  cursor: pointer;
+}
+.swiper-button:focus {
+  border: 1px solid rgb(191, 191, 191);
 }
 
 .swiper-wrapper {
@@ -83,6 +87,10 @@
 .button-more-info img {
   align-self: stretch;
 }
+.button-more-info:focus {
+  background: linear-gradient(to right, #ececec 50%, #F8F8F8 90%);
+}
+
 .swiper-slide-sub-one {
   display: none;
 }
