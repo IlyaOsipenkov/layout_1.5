@@ -1,5 +1,6 @@
 let swiper = null
-let screenWidth = window.screen.width
+let screenWidth = window.innerWidth || document.documentElement.clientWidth ||
+    document.body.clientWidth;
 const isMobile = (screenWidth) => {
     return screenWidth <= 767
 }
@@ -23,7 +24,8 @@ if (isMobile(screenWidth)) {
 
 
 const resize = () => {
-    screenWidth = window.screen.width
+    screenWidth = window.innerWidth || document.documentElement.clientWidth ||
+        document.body.clientWidth;
     if (swiper != null) {
         if (isMobile(screenWidth)) {
             swiper = new Swiper('.swiper', {
